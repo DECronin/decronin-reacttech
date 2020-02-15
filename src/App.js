@@ -7,6 +7,7 @@ import Bio from './comonents/Bio';
 import Nav from './comonents/Nav';
 import Logo from './comonents/Logo';
 
+
 function App() {
     return (
     <Router>

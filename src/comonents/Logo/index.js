@@ -2,7 +2,7 @@ import React from 'react';
 
 function Logo(){
     return(<>
-        <h1>HI I'M DANA!</h1>
+        <h1>DECronin</h1>
     </>)
 }
 
