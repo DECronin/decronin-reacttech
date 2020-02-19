@@ -5,13 +5,6 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-            <Link className="navbar-brand logo root" to="/" title="Home">
-                <FaHome 
-                    color="#008f68"
-                    size="50px"
-                    style={{ margin: '0 5px' }}
-                />
-            </Link>
             <div>
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -51,6 +44,13 @@ function Nav() {
                             />
             </a>
                     </li>
+            <Link className="navbar-brand logo root" to="/" title="Home">
+                <FaHome 
+                    color="#008f68"
+                    size="50px"
+                    style={{ margin: '0 5px' }}
+                />
+            </Link>
                     <li className="nav-item">
                         <a
                             href="https://github.com/DECronin"
