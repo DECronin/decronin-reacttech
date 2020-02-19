@@ -4,7 +4,7 @@ import './App.css';
 import Wrapper from './comonents/Wrapper'
 import Projects from './comonents/Projects';
 import Bio from './comonents/Bio';
-import Nav from './comonents/Nav';
+import Header from './comonents/Header';
 import Logo from './comonents/Logo';
 
 
@@ -12,8 +12,8 @@ function App() {
     return (
     <Router>
     <div className="App">
-        <Nav />
       <Wrapper>
+        <Header />
         <Route exact path="/" component={Logo} />
         <Route exact path="/about" component={Bio} />
         <Route exact path="/portfolio" component={Projects} />
