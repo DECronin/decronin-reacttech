@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (<>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center circular-menu">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
             <Link className="navbar-brand logo root" to="/" title="Home">
                 <FaHome 
                     color="#008f68"

@@ -3,22 +3,20 @@ import Nav from '../Nav';
 
 function Header() {
 return (<>
-    <header>
-        <Nav />
-        <div className="row  justify-content-center">
-            <div className="col-2"></div>
-            <div className="col-3">
-                <img src="./files/ny-selfy.jpg" alt="my-face" id="bio-pic" />
-            </div>
-            <div className="col-2">
-                <h1 class="display-4">Dana Cronin</h1>
-            </div>
-            <div className="col-4">
-                <p class="lead">"There Are Three Types of People: Those Who Make Things Happen, Those Who Watch Things Happen, and Those Who Wonder What Happened."</p>
-                <p class="quote-source">--Nicholas Murray Butler</p>
-            </div>
-            <div className="col-1"></div>
+    <Nav />
+    <header className="row justify-content-center">
+        <div className="col-2"></div>
+        <div className="col-3">
+            <img src="./files/ny-selfy.jpg" alt="my-face" id="bio-pic" />
         </div>
+        <div className="col-2">
+            <h1 class="display-4">Dana Cronin</h1>
+        </div>
+        <div className="col-4">
+            <p class="lead">"There Are Three Types of People: Those Who Make Things Happen, Those Who Watch Things Happen, and Those Who Wonder What Happened."</p>
+            <p class="quote-source">--Nicholas Murray Butler</p>
+        </div>
+        <div className="col-1"></div>
     </header>
 </>)
 }

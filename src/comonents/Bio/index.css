@@ -1,6 +1,6 @@
 #bio-pic{
     width: 200px;
-    height: 230px;
+    height: 220px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -10,13 +10,17 @@ h1{
     line-height: 3rem;
     font-size: larger;
 }
-
 div{
     justify-content: center;
     align-content: center;
     align-items: center;
 }
-
+footer,
 header{
     background-color: rgb(200, 231, 202);
+}
+footer{
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
 }

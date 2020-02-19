@@ -6,6 +6,7 @@ import Projects from './comonents/Projects';
 import Bio from './comonents/Bio';
 import Header from './comonents/Header';
 import Logo from './comonents/Logo';
+import Footer from './comonents/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" component={Logo} />
         <Route exact path="/about" component={Bio} />
         <Route exact path="/portfolio" component={Projects} />
+        <Footer />
       </Wrapper>
     </div>
     </Router>
