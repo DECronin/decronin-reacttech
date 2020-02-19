@@ -1,4 +1,22 @@
-img{
-    width: 225px;
+#bio-pic{
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
     border-radius: 50%;
+}
+h1{
+    font-weight: 650 !important;
+    color: rgb(9, 36, 21);
+    line-height: 3rem;
+    font-size: larger;
+}
+
+div{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(200, 231, 202);
 }
