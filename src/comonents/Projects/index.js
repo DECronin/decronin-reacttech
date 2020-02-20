@@ -18,10 +18,10 @@ const portfolio = [{
   imgAlt: "Word Guess",
   url: "https://decronin.github.io/Word-Guess-Game/"
 }, {
-  title: "Bamazon",
-  imgSrc: "./files/Amazon-Smile-Squ-f9a6e959-ed0d-466b-920a-e9a214e54c02._CB514185896_.jpg",
-  imgAlt: "bamazon",
-  url: "https://github.com/DECronin/bamazon"
+  title: "MongNews",
+  imgSrc: "./files/newspaper-1.jpg",
+  imgAlt: "Mongo Scraper",
+  url: "http://mongnews.herokuapp.com/"
 }, {
   title: "Gif Searcher",
   imgSrc: "./files/searching.jpg",
