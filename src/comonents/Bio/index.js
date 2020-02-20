@@ -11,9 +11,9 @@ function Bio() {
                         <h2>About Me</h2>
                     </div>
                     <div id="bio-text">
-                        <p>Multidisciplinary full stack web developer with mathematics, graphic design, and business development background. Proficiency in JavaScript, HTML5, CSS, React.js, SQL, Adobe Acrobat Pro DC, Databases, Heroku, Git, Node.js, Cheerio.js, Cypress, Microsoft Office Suite, Graphics Editing Software and responsive libraries.</p>
-                        <p>Highly motivated innovative professional experienced in full stack project development, project management and team coordination. Outstanding problem-solving skills with a passion for generating work that exceeds the expectations of the client. Adept from prototype to implementation; ability to comprehensively remain focused on the client’s mission.</p>
-                        <p>Positioned well to provide unique perspectives on end-user interactions for websites’ flow and logic by leveraging my expertise in liaison organization communications by applying elasticity to fresh concepts.</p>
+                        <p>Multidisciplinary Solutions Analyst with Certificate in Full Stack Web Development accompanying a background in Mathematics, Graphic Design, and Business Development. Outstanding problem-solving skills with a passion for generating work that exceeds the expectations of the client.</p>
+                        <p>Adept from prototype to implementation; ability to rally self and/or team through comprehensively remaining focused on the client’s mission. Critical eye for details from converting stale code to debugging or condensing into production.</p>
+                        <p>Positioned well to provide unique perspectives on end-user interactions for websites’ flow and logic by leveraging expertise in liaison organization communications by applying elasticity to fresh concepts.</p>
                     </div>
                 </div>
             </div>
