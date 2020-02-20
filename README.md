@@ -4,27 +4,27 @@
 #### [_UCF.BootCamp.20_ Requirements]()
 
 ### Navigation:
-> Person Icon
+- > Person Icon
 >> About Me | | Brand Statement
 
-> Briefcase Icon
+- > Briefcase Icon
 >> Porfolio
 >>> Left and Right buttons to switch through carousel of 6 Projects
 >>>> Click Project Title or Image to Open Deployed Project in New Tab
 
-> Envelope Icon
+- > Envelope Icon
 >> Opens New E-Mail Locally to send to my profesional Email (address provided in footer)
 
-> Home Icon
+- > Home Icon
 >> LOGO | | filler to be created and added
 
-> GitHub Icon
+- > GitHub Icon
 >> Opens GitHub Profile in New Tab
 
-> LinkedIn Icon
+- > LinkedIn Icon
 >> Opens LinkedIn Profile in New Tab
 
-> PDF - File Icon 
+- > PDF - File Icon 
 >> Opens Resume PDF in New Tab
 
 
