@@ -13,10 +13,10 @@ const portfolio = [{
   igAlt: "cypher-text",
   url: "https://cypher-text.herokuapp.com/"
 }, {
-  title: "Word Guess",
-  imgSrc: "./files/1_3FTNbYQ3pWzJ1u4XF1Suzw.png",
-  imgAlt: "Word Guess",
-  url: "https://decronin.github.io/Word-Guess-Game/"
+  title: "Employee Directory",
+  imgSrc: "./files/emp-dir-ss.jpg",
+  imgAlt: "Employee Directory Template",
+  url: "https://decronin-employeedirectory.herokuapp.com/"
 }, {
   title: "MongNews",
   imgSrc: "./files/newspaper-1.jpg",
