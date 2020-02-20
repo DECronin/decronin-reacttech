@@ -5,27 +5,27 @@
 
 ### Navigation:
 - > Person Icon
->> About Me | | Brand Statement
+    >> About Me | | Brand Statement
 
 - > Briefcase Icon
->> Porfolio
->>> Left and Right buttons to switch through carousel of 6 Projects
->>>> Click Project Title or Image to Open Deployed Project in New Tab
+    >> Porfolio
+    >>> Left and Right buttons to switch through carousel of 6 Projects
+    >>>> Click Project Title or Image to Open Deployed Project in New Tab
 
 - > Envelope Icon
->> Opens New E-Mail Locally to send to my profesional Email (address provided in footer)
+    >> Opens New E-Mail Locally to send to my profesional Email (address provided in footer)
 
 - > Home Icon
->> LOGO | | filler to be created and added
+    >> LOGO | | filler to be created and added
 
 - > GitHub Icon
->> Opens GitHub Profile in New Tab
+    >> Opens GitHub Profile in New Tab
 
 - > LinkedIn Icon
->> Opens LinkedIn Profile in New Tab
+    >> Opens LinkedIn Profile in New Tab
 
 - > PDF - File Icon 
->> Opens Resume PDF in New Tab
+    >> Opens Resume PDF in New Tab
 
 
 ### Resources:
