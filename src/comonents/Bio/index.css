@@ -23,4 +23,16 @@ footer{
     color: gray;
     padding-top: 10px;
     padding-bottom: 0px !important;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+.navbar{
+    height: 57.5px !important
+}
+.h-name{
+    padding-top: 15px;
+}
+.h-quote{
+    padding-top: 25px;
 }
