@@ -4,7 +4,9 @@
 body{
   background-attachment: fixed;
   margin: 0px auto!important;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: visible;
+  padding-bottom: 60px;
   background-image: linear-gradient(#f8f9fa,#f8f9fa, #bfc2bf);
 }
 html{
