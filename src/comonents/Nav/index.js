@@ -48,6 +48,7 @@ function Nav() {
                 <FaHome 
                     color="#008f68"
                     size="50px"
+                    title="Badges"
                     style={{ margin: '0 5px' }}
                 />
             </Link>

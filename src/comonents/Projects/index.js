@@ -149,9 +149,6 @@ function Projects() {
   return (<>
     <div class="container portfolio-list" id="content-center">
       {state.currentCard}
-      <div class="row">
-        {/* <h2 id="portfolio-h2">Portfolio</h2> */}
-      </div>
     </div>
   </>)
 }

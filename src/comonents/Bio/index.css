@@ -42,6 +42,7 @@ footer{
     max-height: 55% !important;
     margin: 5px;
 }
+#bio-text,
 .logo-tech-links{
     z-index: 8;
     position: absolute;
@@ -51,4 +52,10 @@ footer{
     height: auto;
     background-image: linear-gradient(-20deg, rgb(0, 143, 105, 0.85), rgb(200, 231, 202,0.65));
     border: rgb(143, 188, 143, 0.75) 15px outset;
+}
+#bio-text{
+    text-shadow: -0.85px 0.85px whitesmoke;
+    top: 33vh;
+    font-size: 115%;
+    font-weight: 145%;
 }
