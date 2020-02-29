@@ -13,8 +13,8 @@ function Logo(){
                 <a className="col-2" title="HTML 5" href="https://www.w3schools.com/html/html5_intro.asp"><img className="tect-badge" src="./files/html5.png" alt="html5" /></a>
                 </div>
             <div className="row">
-                <a className="col-2" title="MongoDB" href="https://www.mongodb.com/"><img className="tect-badge" src="./files/MongoDB.jpg" alt="mongo" /></a>
-                <a className="col-2" title="MySQL" href="https://www.mysql.com/"><img className="tect-badge" src="./files/my-sql.png" alt="my-sql" /></a>
+                <a className="col-2" title="MongoDB | Mongoose" href="https://www.mongodb.com/"><img className="tect-badge" src="./files/mongodb.jpg" alt="mongoDB" /></a>
+                <a className="col-2" title="MySQL | Sequelize" href="https://www.mysql.com/"><img className="tect-badge" src="./files/my-sql.png" alt="my-sql" /></a>
                 <a className="col-2" title="Express" href="http://expressjs.com/"><img className="tect-badge" src="./files/express.png" alt="express" /></a>
                 <a className="col-2" title="React.js" href="https://reactjs.org/"><img className="tect-badge" src=".\files\reactjs-logo.jpg" alt="react" /></a>
                 <a className="col-2" title="Node.js" href="https://nodejs.org/en/"><img className="tect-badge" src="./files/node.png" alt="node" /></a>
