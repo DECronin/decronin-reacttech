@@ -54,7 +54,7 @@ footer{
     border: rgb(143, 188, 143, 0.75) 15px outset;
 }
 #bio-text{
-    text-shadow: -0.85px 0.85px whitesmoke;
+    text-shadow: -0.6px 0.6px rgb(126, 126, 126);
     top: 33vh;
     font-size: 115%;
     font-weight: 145%;
