@@ -120,6 +120,8 @@ function Projects() {
                   <a href={portfolio[state.displayingIndex].urlDep}>
                     <FaGlobeAmericas
                       color="#f8f9fa"
+                      rel="noopener noreferrer"
+                      target="_blank"
                       size="40px"
                       style={{ margin: '0 15px' }}
                      /></a>
@@ -128,6 +130,8 @@ function Projects() {
                     <FaGithub
                       color="#f8f9fa"
                       size="40px"
+                      rel="noopener noreferrer"
+                      target="_blank"
                       style={{ margin: '0 15px' }}
                     /></a>
                 </h2>

@@ -35,6 +35,7 @@ function Nav() {
                         <a
                             href="mailto: decronintech@gmailcom"
                             target="_blank"
+                            rel="noopener noreferrer"
                             title="Email Me"
                             className="gmail external nav-link">
                             <FaEnvelope
@@ -57,6 +58,7 @@ function Nav() {
                             href="https://github.com/DECronin"
                             target="_blank"
                             title="GitHub"
+                            rel="noopener noreferrer"
                             className="github external nav-link">
                             <FaGithub
                                 color="#008f68"
@@ -70,6 +72,7 @@ function Nav() {
                             href="https://www.linkedin.com/in/dana-cronin-7623a5130"
                             target="_blank"
                             title="LinkedIn"
+                            rel="noopener noreferrer"
                             className="linkedin external nav-link">
                             <FaLinkedin
                                 color="#008f68"
@@ -82,6 +85,7 @@ function Nav() {
                         <a
                             href="./files/DECronin_Resume.pdf"
                             target="_blank"
+                            rel="noopener noreferrer"
                             title="Resume"
                             className="resume external nav-link">
                             <FaFilePdf
