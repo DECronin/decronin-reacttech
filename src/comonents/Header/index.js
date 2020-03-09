@@ -7,7 +7,7 @@ return (<>
     <header className="row justify-content-center">
         <div className="col-2"></div>
         <div className="col-3">
-            <img src="./files/ny-selfy.jpg" alt="my-face" id="bio-pic" />
+            <img src="./files/0sm-dec.jpg" alt="my-face" id="bio-pic" />
         </div>
         <div className="col-2 h-name">
             <h1 class="display-4">Dana Cronin</h1>

@@ -69,7 +69,7 @@ function Nav() {
                     </li>
                     <li className="nav-item">
                         <a
-                            href="https://www.linkedin.com/in/dana-cronin-7623a5130"
+                            href="https://www.linkedin.com/in/decronin"
                             target="_blank"
                             title="LinkedIn"
                             rel="noopener noreferrer"
