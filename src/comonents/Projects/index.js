@@ -6,7 +6,7 @@ const portfolio = [{
   title: "CommuniTI",
   imgSrc: "./files/communicate-1151283_1280.jpg",
   imgAlt: "Communi T I",
-  desc: 'A psudo-anonymous forum-style community to reenforce/promote healthy communication skills and societal understandings without biases or aggression for the sake of personal growth.',
+  desc: 'A pseudo-anonymous forum-style community to reinforce/promote healthy communication skills and societal understandings without biases or aggression for the sake of personal growth.',
   tech: ["React.js", "JS", "Sequelize", "MySQL", "Morgan", "Axios", "Express", "JawsDB"],
   urlGH: 'https://github.com/DECronin/CommuniTI',
   urlDep: "https://communi-t-i.herokuapp.com/"
