@@ -117,22 +117,24 @@ function Projects() {
             </button>
             <div className="col-6 current-card">
                 <h2 className="row justify-content-center project-title">
-                  <a href={portfolio[state.displayingIndex].urlDep}>
+                  <a href={portfolio[state.displayingIndex].urlDep} title="Live Site">
                     <FaGlobeAmericas
-                      color="#f8f9fa"
+                      color="#00704e"
                       rel="noopener noreferrer"
                       target="_blank"
                       size="40px"
                       style={{ margin: '0 15px' }}
+                      filter='drop-shadow(-2px 1.65px 0 white)'
                      /></a>
                   <h1>{portfolio[state.displayingIndex].title}</h1>
-                  <a href={portfolio[state.displayingIndex].urlGH}>
+                  <a href={portfolio[state.displayingIndex].urlGH} title="GitHub Source Code">
                     <FaGithub
-                      color="#f8f9fa"
+                      color="#00704e"
                       size="40px"
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ margin: '0 15px' }}
+                      filter='drop-shadow(-2px 1.65px 0 white)'
                     /></a>
                 </h2>
                 <img src={portfolio[state.displayingIndex].imgSrc} alt={portfolio[state.displayingIndex].imgAlt} className="work row" />
