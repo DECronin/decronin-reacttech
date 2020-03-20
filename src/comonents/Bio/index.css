@@ -46,7 +46,6 @@ footer{
 .logo-tech-links{
     z-index: 8;
     position: absolute;
-    top: 28.5vh;
     left: 16vw;
     width: 70vw;
     height: auto;
@@ -55,7 +54,12 @@ footer{
 }
 #bio-text{
     text-shadow: -0.6px 0.6px rgb(126, 126, 126);
-    top: 33vh;
     font-size: 115%;
     font-weight: 145%;
+}
+
+#bio-text,
+.full-slider,
+.logo-tech-links{
+    top: 220px !important
 }
