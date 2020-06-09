@@ -1,7 +1,6 @@
 # [__Portfolio__ :|: _DECronin_](https://decronin.herokuapp.com/)
 
 #### [Old Portfolio](decronin.github.io)
-#### [_UCF.BootCamp.20_ Requirements]()
 
 ### Navigation:
 -  Person Icon
@@ -16,7 +15,7 @@
     > Opens New E-Mail Locally to send to my profesional Email (address provided in footer)
 
 -  Home Icon
-    > LOGO | | filler to be created and added
+    > Badges | | Icons w/ links to the technologies highnlighting my skillset
 
 -  GitHub Icon
     > Opens GitHub Profile in New Tab
