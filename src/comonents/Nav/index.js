@@ -5,19 +5,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     function viewPort(){
-        let device = window.innerWidth;
-        console.log("viewport " + device);
-        console.log("type " + typeof(device));
-        if (device > 950){
-            console.log('big'); 
-            return "50px";
-        } else if (device > 600){
-            console.log('med'); 
-            return "45px";
-        } else {
-            console.log('def'); 
-            return "30px";
-        }
+        return "5vw"
     }
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center row navbar-nav">
@@ -29,7 +17,7 @@ function Nav() {
                             <FaUser
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
             </Link>
                     </li>
@@ -41,7 +29,7 @@ function Nav() {
                             <FaBriefcase
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
             </Link>
                     </li>
@@ -55,7 +43,7 @@ function Nav() {
                             <FaEnvelope
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
             </a>
                     </li>
@@ -64,7 +52,7 @@ function Nav() {
                     color="#008f68"
                     size={viewPort()}
                     title="Badges"
-                    style={{ margin: '0 5px' }}
+                    style={{ margin: '0 0.5vw' }}
                 />
             </Link>
                     <li className="nav-item">
@@ -77,7 +65,7 @@ function Nav() {
                             <FaGithub
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
                         </a>
                     </li>
@@ -91,7 +79,7 @@ function Nav() {
                             <FaLinkedin
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
             </a>
                     </li>
@@ -105,7 +93,7 @@ function Nav() {
                             <FaFilePdf
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 5px' }}
+                                style={{ margin: '0 0.5vw' }}
                             />
             </a>
                     </li>
@@ -114,3 +102,18 @@ function Nav() {
 }
 
 export default Nav
+
+// ALTERNATIVE APROACH TO ViewPort
+        // let device = window.innerWidth;
+        // console.log("viewport " + device);
+        // console.log("type " + typeof(device));
+        // if (device > 950){
+        //     console.log('big'); 
+        //     return "50px";
+        // } else if (device > 600){
+        //     console.log('med'); 
+        //     return "45px";
+        // } else {
+        //     console.log('def'); 
+        //     return "20px";
+        // }
