@@ -2,7 +2,23 @@ import React from 'react';
 import { FaHome, FaGithub, FaLinkedin, FaFilePdf, FaEnvelope, FaBriefcase, FaUser} from "react-icons/fa";  // Font Awesome
 import { Link } from "react-router-dom";
 
+
 function Nav() {
+    function viewPort(){
+        let device = window.innerWidth;
+        console.log("viewport " + device);
+        console.log("type " + typeof(device));
+        if (device > 950){
+            console.log('big'); 
+            return "50px";
+        } else if (device > 600){
+            console.log('med'); 
+            return "45px";
+        } else {
+            console.log('def'); 
+            return "30px";
+        }
+    }
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center row navbar-nav">
                     <li className="nav-item">
@@ -12,7 +28,7 @@ function Nav() {
                             className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                             <FaUser
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
             </Link>
@@ -24,7 +40,7 @@ function Nav() {
                             className={window.location.pathname === "/potfolio" ? "nav-link active" : "nav-link"}>
                             <FaBriefcase
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
             </Link>
@@ -38,7 +54,7 @@ function Nav() {
                             className="gmail external nav-link">
                             <FaEnvelope
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
             </a>
@@ -46,7 +62,7 @@ function Nav() {
             <Link className="navbar-brand logo root" to="/" title="Home">
                 <FaHome 
                     color="#008f68"
-                    size="50px"
+                    size={viewPort()}
                     title="Badges"
                     style={{ margin: '0 5px' }}
                 />
@@ -60,7 +76,7 @@ function Nav() {
                             className="github external nav-link">
                             <FaGithub
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
                         </a>
@@ -74,7 +90,7 @@ function Nav() {
                             className="linkedin external nav-link">
                             <FaLinkedin
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
             </a>
@@ -88,7 +104,7 @@ function Nav() {
                             className="resume external nav-link">
                             <FaFilePdf
                                 color="#008f68"
-                                size="50px"
+                                size={viewPort()}
                                 style={{ margin: '0 5px' }}
                             />
             </a>
