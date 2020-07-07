@@ -9,7 +9,7 @@ function Nav() {
         if(device > 950){
             return "50px"
         } else {
-            return "5vw"
+            return "6vw"
         }
     }
     return (<>
@@ -22,7 +22,7 @@ function Nav() {
                             <FaUser
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
             </Link>
                     </li>
@@ -34,7 +34,7 @@ function Nav() {
                             <FaBriefcase
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
             </Link>
                     </li>
@@ -48,7 +48,7 @@ function Nav() {
                             <FaEnvelope
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
             </a>
                     </li>
@@ -57,7 +57,7 @@ function Nav() {
                     color="#008f68"
                     size={viewPort()}
                     title="Badges"
-                    style={{ margin: '0 0.5vw' }}
+                    style={{ margin: '0 0.75vw' }}
                 />
             </Link>
                     <li className="nav-item">
@@ -70,7 +70,7 @@ function Nav() {
                             <FaGithub
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
                         </a>
                     </li>
@@ -84,7 +84,7 @@ function Nav() {
                             <FaLinkedin
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
             </a>
                     </li>
@@ -98,7 +98,7 @@ function Nav() {
                             <FaFilePdf
                                 color="#008f68"
                                 size={viewPort()}
-                                style={{ margin: '0 0.5vw' }}
+                                style={{ margin: '0 0.75vw' }}
                             />
             </a>
                     </li>
