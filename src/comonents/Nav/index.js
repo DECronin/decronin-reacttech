@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     function viewPort(){
-        return "5vw"
+        let device = window.innerWidth;
+        if(device > 950){
+            return "50px"
+        } else {
+            return "5vw"
+        }
     }
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center row navbar-nav">
