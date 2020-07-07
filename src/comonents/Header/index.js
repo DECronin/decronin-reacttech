@@ -5,7 +5,7 @@ function Header() {
 return (<>
     <Nav />
     <header className="row justify-content-center">
-        <div className="col-lg-2"></div>
+        <div className="col-lg-2 hidden-md-down"></div>
         <div className="col-lg-3 col-md-6">
             <img src="./files/0sm-dec.jpg" alt="my-face" id="bio-pic" />
         </div>
@@ -16,7 +16,7 @@ return (<>
             <p className="lead">"There Are Three Types of People: Those Who Make Things Happen, Those Who Watch Things Happen, and Those Who Wonder What Happened."</p>
             <p className="quote-source">--Nicholas Murray Butler</p>
         </div>
-        <div className="col-lg-1"></div>
+        <div className="col-lg-1 hidden-md-down"></div>
     </header>
 </>)
 }
