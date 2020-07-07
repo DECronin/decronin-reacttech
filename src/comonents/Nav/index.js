@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (<>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-            <div>
-                <ul className="navbar-nav">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center row navbar-nav">
                     <li className="nav-item">
                         <Link
                             to="/about"
@@ -95,8 +93,6 @@ function Nav() {
                             />
             </a>
                     </li>
-                </ul>
-            </div>
         </nav>
     </>)
 }
