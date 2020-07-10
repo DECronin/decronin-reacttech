@@ -13,7 +13,7 @@ function Nav() {
         }
     }
     return (<>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center row navbar-nav">
+        <nav className="navbar navbar-expand-lg justify-content-center row navbar-nav">
                     <li className="nav-item">
                         <Link
                             to="/about"
