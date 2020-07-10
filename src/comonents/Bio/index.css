@@ -17,11 +17,11 @@ div{
 }
 footer,
 header{
-    background-color: rgb(200, 231, 202);
+    background-color: rgba(200, 231, 202, 0.5);
 }
 footer{
-    color: gray;
-    padding-top: 10px;
+    color: rgb(6, 32, 18);
+    padding-top: 12px;
     padding-bottom: 0px !important;
     position: fixed;
     bottom: 0px;
@@ -29,8 +29,8 @@ footer{
 }
 .navbar{
     height: 57.5px !important;
-    width: 90vw !important;
-
+    width: 100vw !important;
+    /* background-color: rgba(175, 248, 224, 0.5); */
 }
 .h-name{
     padding-top: 15px;
@@ -93,8 +93,6 @@ footer{
     }
     footer{
         padding-top: 3px;
-        font-size: 12px;
-        color: rgb(6, 32, 18);
         padding-right: 10px;
     }
 }
