@@ -108,13 +108,13 @@ function Projects() {
       ...state, currentCard:
         <>
           <div className="row full-slider">
-            <button className="col-3 btn" onClick={() => handleBtnClick("back")}>
+            <button className="col-md-3  col-sm-12 btn" onClick={() => handleBtnClick("back")}>
               <FaAngleDoubleLeft
                 color="#f8f9fa"
                 size="30%"
                 style={{ margin: '0 5px' }} />
             </button>
-            <div className="col-6 current-card">
+            <div className="col-md-6 col-sm-12 current-card">
                 <h2 className="row justify-content-center project-title">
                   <a href={portfolio[state.displayingIndex].urlDep} title="Live Site" className="project-links col-3">
                     <FaGlobeAmericas
@@ -140,7 +140,7 @@ function Projects() {
                 <p className="row project-description justify-content-center">{portfolio[state.displayingIndex].desc}</p>
                 <h6 className="row tech justify-content-center">{displayTechList(portfolio[state.displayingIndex].tech)}</h6>
             </div>
-              <button className="col-3 btn" onClick={() => handleBtnClick("next")}>
+              <button className="col-md-3  col-sm-12 btn" onClick={() => handleBtnClick("next")}>
                 <FaAngleDoubleRight
                   color="#f8f9fa"
                   size="30%"
