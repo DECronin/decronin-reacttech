@@ -6,13 +6,12 @@ body{
   margin: 0px auto!important;
   min-height: 100vh;
   overflow: visible;
+  background-color: rgba(0, 0, 0, 0);
   padding-bottom: 60px;
-  /* background-image: linear-gradient(#f8f9fa,#f8f9fa, #bfc2bf); */
-  background-image: url(./images/00000-space-4678685_960_720.jpg);
-  background-size: cover;
 }
 html{
   width: 100% !important;
   padding: 0 1% 0 1% !important;  
-  background-color: rgb(18, 44, 24);
+  background-image: url(./images/00000-space-4678685_960_720.jpg);
+  background-size: cover;
 }
