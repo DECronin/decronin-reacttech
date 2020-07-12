@@ -112,7 +112,7 @@ function Projects() {
             <button className="col-3 btn" onClick={() => handleBtnClick("back")}>
               <FaAngleDoubleLeft
                 color="#f8f9fa"
-                size="50px"
+                size="30%"
                 style={{ margin: '0 5px' }} />
             </button>
             <div className="col-6 current-card">
@@ -122,18 +122,18 @@ function Projects() {
                       color="#00704e"
                       rel="noopener noreferrer"
                       target="_blank"
-                      size="40px"
-                      style={{ margin: '0 15px' }}
+                      size=""
+                      style={{ margin: '0 5px' }}
                       filter='drop-shadow(-2px 1.65px 0 white)'
                      /></a>
                   <h1>{portfolio[state.displayingIndex].title}</h1>
                   <a href={portfolio[state.displayingIndex].urlGH} title="GitHub Source Code">
                     <FaGithub
                       color="#00704e"
-                      size="40px"
+                      size="5vh"
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ margin: '0 15px' }}
+                      style={{ margin: '0 2vw' }}
                       filter='drop-shadow(-2px 1.65px 0 white)'
                     /></a>
                 </h2>
@@ -144,7 +144,7 @@ function Projects() {
               <button className="col-3 btn" onClick={() => handleBtnClick("next")}>
                 <FaAngleDoubleRight
                   color="#f8f9fa"
-                  size="50px"
+                  size="30%"
                   style={{ margin: '0 5px' }} />
               </button>
           </div>
