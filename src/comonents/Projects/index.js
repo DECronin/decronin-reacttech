@@ -104,7 +104,6 @@ function Projects() {
   }
 
   function buildDisplayFocus(){
-    console.log(`line 84?`)
     setThisState({
       ...state, currentCard:
         <>
@@ -117,23 +116,23 @@ function Projects() {
             </button>
             <div className="col-6 current-card">
                 <h2 className="row justify-content-center project-title">
-                  <a href={portfolio[state.displayingIndex].urlDep} title="Live Site">
+                  <a href={portfolio[state.displayingIndex].urlDep} title="Live Site" className="project-links col-3">
                     <FaGlobeAmericas
                       color="#00704e"
                       rel="noopener noreferrer"
                       target="_blank"
-                      size=""
-                      style={{ margin: '0 5px' }}
+                      size="35px"
+                      style={{ margin: '0 2px' }}
                       filter='drop-shadow(-2px 1.65px 0 white)'
                      /></a>
-                  <h1>{portfolio[state.displayingIndex].title}</h1>
-                  <a href={portfolio[state.displayingIndex].urlGH} title="GitHub Source Code">
+                  <h1 className="project-title col-6">{portfolio[state.displayingIndex].title}</h1>
+                  <a href={portfolio[state.displayingIndex].urlGH} title="GitHub Source Code" className="project-links col-3">
                     <FaGithub
                       color="#00704e"
-                      size="5vh"
+                      size="35px"
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ margin: '0 2vw' }}
+                      style={{ margin: '0 2px' }}
                       filter='drop-shadow(-2px 1.65px 0 white)'
                     /></a>
                 </h2>
