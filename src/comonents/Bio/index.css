@@ -112,7 +112,7 @@ footer{
     #bio-text{
         width: 100vw;
         top: 195px;
-        left: 0px;
+        left: 2px;
         border: none;
         padding: 9px;
         background-image: linear-gradient(-20deg, rgb(0, 143, 105), rgb(200, 231, 202));
