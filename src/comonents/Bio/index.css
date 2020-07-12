@@ -30,7 +30,6 @@ footer{
 .navbar{
     height: 57.5px !important;
     width: 100vw !important;
-    /* background-color: rgba(175, 248, 224, 0.5); */
 }
 .h-name{
     padding-top: 15px;
@@ -49,7 +48,7 @@ footer{
 .logo-tech-links{
     z-index: 8;
     position: absolute;
-    margin: 0 auto;
+    left: 17vw;
     width: 70vw;
     height: auto;
     background-image: linear-gradient(-20deg, rgb(0, 143, 105, 0.85), rgb(200, 231, 202,0.65));
@@ -64,7 +63,7 @@ footer{
 #bio-text,
 .full-slider,
 .logo-tech-links{
-    top: 220px !important
+    top: 220px;
 }
 
 @media screen and (max-width: 950px){
@@ -75,6 +74,7 @@ footer{
     #bio-text,
     .logo-tech-links{
         width: 85vw;
+        left: 8vw;
     }
 }
 
@@ -83,17 +83,37 @@ footer{
         width: 120px;
         height: 140px;
     }
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(107, 204, 167);
+        text-shadow: 0.35px 0.35px 0.75px rgb(23, 63, 23);
+    }
     .h-name{
-        padding-top: 35vh;
+        padding-top: 43vh;
+    }
+    h1{
+        color: rgb(44, 170, 128);
+        text-shadow: 0.65px 1px 1px rgb(55, 75, 49);
     }
     h1.display-4{
         font-size: 35px;
+        color: rgb(44, 170, 128);
+        text-shadow: 0.65px 1px 1px rgb(55, 75, 49);
         font-weight: 550 !important;
     }
     #bio-text,
     .logo-tech-links{
         width: 92vw;
+        left: 2vw;
+        top: 170px;
+        border: rgb(143, 188, 143, 0.5) 5px outset;
+        background: rgba(62, 192, 138, 0.25);
     }
+    .lead{
+        padding: 0px;
+        margin: 0px;
+    }
+
     .h-quote,
     .lead,
     .quote-source{
