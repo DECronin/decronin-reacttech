@@ -3,8 +3,6 @@ import './index.css';
 
 function Bio() {
     return (<>
-        <div className="container">
-            <div class="jumbotron jumbotron-fluid">
                 <div className="container" id="content-center">
                     <div id="bio-text">
                         <h1 className="row justify-content-center">About Me</h1>
@@ -13,8 +11,6 @@ function Bio() {
                         <p>Brainstorming Wireframes comes second nature with JavaScript functionality applying to HTML compartmentalization experience. Positioned well to provide unique perspectives on end-user interactions for websites’ flow and logic by leveraging expertise in liaison organization communications by applying elasticity to fresh concepts.</p>
                     </div>
                 </div>
-            </div>
-        </div>
     </>)
 }
 
